@@ -1,0 +1,32 @@
+<div class="form-group">
+    <label for="_id">Record_ID</label>
+    <input required value="<%= record._id %>" type="text" name="_id" id="_id" class="form-control">
+</div>
+
+<div class="form-group">
+    <label for="Car_ID">Car_ID</label>
+    <input required value="<%= record.Car_ID %>" type="text" name="Car_ID" id="Car_ID" class="form-control">
+</div>
+
+<div class="form-group">
+    <label for="Booking_ID">Booking_ID</label>
+    <input required type="text" name="Booking_ID" id="Booking_ID" class="form-control">
+</div>
+
+<div class="form-group">
+    <label for="Collision_Data">Collision_Data</label>
+    <textarea required type="text" name="Collision_Data" id="Collision_Data" class="form-control"></textarea>
+</div>
+
+<div class="form-group">
+    <label for="Invasion_Data">Invasion_Data</label>
+    <textarea required type="text" name="Invasion_Data" id="Invasion_Data" class="form-control"></textarea>
+</div>
+
+<div class="form-group">
+    <label for="GNSS_Data">GNSS_Data</label>
+    <textarea required type="text" name="GNSS_Data" id="GNSS_Data" class="form-control"></textarea>
+</div>
+
+<a href="/" class="btn btn-secondary">Cancel</a>
+<button type="submit" class="btn btn-primary">Save</button>
